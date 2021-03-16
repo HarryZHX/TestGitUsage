@@ -1,0 +1,8 @@
+package practice.AppiumFramework;
+
+public class Snippet {
+	public static void main(String[] args) {
+			Thread.sleep(7000);
+	}
+}
+

@@ -1,0 +1,5 @@
+package practice.AppiumFramework;
+import org.testng.ITListener;
+public class Listeners implements ITestListener{
+
+}

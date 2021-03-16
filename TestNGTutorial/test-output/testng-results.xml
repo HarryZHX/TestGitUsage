@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-04T20:40:45 PST" name="Suite" finished-at="2021-01-04T20:40:45 PST" duration-ms="183">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.Demo2()[pri:0, instance:test.day2@5584d9c6]" name="Demo2" class="test.day2"/>
+        <method signature="day4.Demo4(java.lang.String)[pri:0, instance:test.day4@3c9c6245]" name="Demo4" class="test.day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-01-04T20:40:45 PST" name="Test1orwhateverthenameyouwanna" finished-at="2021-01-04T20:40:45 PST" duration-ms="100">
+      <class name="test.day4">
+        <test-method signature="ASecondDemo4()[pri:0, instance:test.day4@3c9c6245]" started-at="2021-01-04T20:40:45 PST" name="ASecondDemo4" finished-at="2021-01-04T20:40:45 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASecondDemo4 -->
+        <test-method signature="Demo4(java.lang.String)[pri:0, instance:test.day4@3c9c6245]" started-at="2021-01-04T20:40:45 PST" name="Demo4" finished-at="2021-01-04T20:40:45 PST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo4 -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method signature="Demo2()[pri:0, instance:test.day2@5584d9c6]" started-at="2021-01-04T20:40:45 PST" name="Demo2" finished-at="2021-01-04T20:40:45 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+        <test-method signature="SecondDemo2()[pri:0, instance:test.day2@5584d9c6]" started-at="2021-01-04T20:40:45 PST" name="SecondDemo2" finished-at="2021-01-04T20:40:45 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDemo2 -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method signature="Demo()[pri:0, instance:test.day1@6a9344f5]" started-at="2021-01-04T20:40:45 PST" name="Demo" finished-at="2021-01-04T20:40:45 PST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondDemo()[pri:0, instance:test.day1@6a9344f5]" started-at="2021-01-04T20:40:45 PST" name="SecondDemo" finished-at="2021-01-04T20:40:45 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDemo -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Test1orwhateverthenameyouwanna -->
+    <test started-at="2021-01-04T20:40:45 PST" name="Test2whatever" finished-at="2021-01-04T20:40:45 PST" duration-ms="2">
+      <class name="test.day3">
+        <test-method signature="Demo3()[pri:0, instance:test.day3@7b2ccba5]" started-at="2021-01-04T20:40:45 PST" name="Demo3" finished-at="2021-01-04T20:40:45 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <test-method is-config="true" signature="SecondDemo()[pri:0, instance:test.day1@6a9344f5]" started-at="2021-01-04T20:40:45 PST" name="SecondDemo" finished-at="2021-01-04T20:40:45 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDemo -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Test2whatever -->
+  </suite> <!-- Suite -->
+</testng-results>
